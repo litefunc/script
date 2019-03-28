@@ -1,7 +1,6 @@
 #!/bin/sh
 
-# folder should exists before this command
-sudo mount -t vboxsf myfolder /home/user/myfolder
+# folder should exists before mount
 
 sudo mount -t vboxsf share /home/david/Public/share
 

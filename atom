@@ -1,0 +1,6 @@
+
+issue: Does not inherit environment variables when launched not from the command line
+dose not load ~/.basrc
+https://github.com/atom/atom/issues/18318
+
+solution: change /usr/bin/atom header #!/bin/bash to #!/bin/bash -i
