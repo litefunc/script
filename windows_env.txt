@@ -1,0 +1,5 @@
+
+
+setx PATH "%PATH%;C:\Users\user\Anaconda3;C:\Users\user\Anaconda3\Scripts"
+
+setx GOPATH "D:\program\go"
