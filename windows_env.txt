@@ -1,5 +1,10 @@
 
+搜尋控制台 -> 檢視方式(大圖示) -> 系統 -> 進階系統設定 -> 環境變數
 
-setx PATH "%PATH%;C:\Users\user\Anaconda3;C:\Users\user\Anaconda3\Scripts"
+1. PATH
 
-setx GOPATH "D:\program\go"
+  "%PATH%;C:\Users\user\Anaconda3;C:\Users\user\Anaconda3\Scripts"
+
+2. GOPATH
+
+  "D:\program\go"
