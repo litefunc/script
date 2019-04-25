@@ -1,0 +1,18 @@
+
+
+1. Error: EROFS, read-only file system
+
+    https://stackoverflow.com/questions/23936458/correct-way-to-setup-virtualbox-4-3-to-use-symlinks-on-guest-for-meteor/28674584#28674584
+    
+    cd C:\Program Files\Oracle\VirtualBox
+    VBoxManage.exe getextradata ubuntu-18.04-150g-10g enumerate
+    VBoxManage.exe setextradata ubuntu-18.04-150g-10g VBoxInternal2/SharedFoldersEnableSymlinksCreate/program 1
+
+
+2. EPROTO: protocol error, symlink
+
+    yarn install --no-bin-links
+
+
+3. /bin/sh: 1: react-scripts: not found
+
